@@ -3,7 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/mediaPlayer/app/src/main/res/drawable/background_fill.xml" value="0.183" />
+        <entry key="..\:/mediaPlayer/app/src/main/res/drawable/ic_pause.xml" value="0.183" />
+        <entry key="..\:/mediaPlayer/app/src/main/res/drawable/ic_play.xml" value="0.183" />
+        <entry key="..\:/mediaPlayer/app/src/main/res/drawable/progress.xml" value="0.183" />
+        <entry key="..\:/mediaPlayer/app/src/main/res/drawable/progress_bar.xml" value="0.183" />
+        <entry key="..\:/mediaPlayer/app/src/main/res/drawable/progress_fill.xml" value="0.183" />
+        <entry key="..\:/mediaPlayer/app/src/main/res/drawable/seekbar.xml" value="0.245" />
         <entry key="..\:/mediaPlayer/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/mediaPlayer/app/src/main/res/layout/activity_video_player.xml" value="0.22327898550724637" />
       </map>
     </option>
   </component>

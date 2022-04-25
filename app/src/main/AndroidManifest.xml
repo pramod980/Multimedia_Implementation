@@ -10,7 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MediaPlayer">
         <activity
+            android:name=".video_player"
+            android:label="Videopalyer"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:label="Music palyer"
+            android:resumeWhilePausing="true"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

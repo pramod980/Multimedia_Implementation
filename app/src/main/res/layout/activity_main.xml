@@ -36,13 +36,15 @@
 
     <SeekBar
         android:id="@+id/seek"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
+        android:layout_width="298dp"
+        android:layout_height="21dp"
         android:layout_marginBottom="212dp"
         android:outlineSpotShadowColor="@android:color/holo_blue_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintHorizontal_bias="0.495"
+        android:thumb="@drawable/seekbar"
+        android:progressTint="@android:color/holo_red_dark"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -70,6 +72,20 @@
         app:layout_constraintEnd_toStartOf="@+id/pause"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/video"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="84dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Video option"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+       />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
